@@ -17,19 +17,17 @@ namespace PierresBakery.Tests
         [TestMethod]
         public void BreadConstructor_CreateInstanceOfBread_Bread()
         {
-            Bread newObject = new Bread(5);
-            Assert.AreEqual(typeof(Bread), newObject.GetType());
+            Bread newBread = new Bread(5);
+            Assert.AreEqual(typeof(Bread), newBread.GetType());
         }
 
-        // [TestMethod]
-        // public void ConvertSentence_FindAndReplace_String()
-        // {
-        //     string source = "she sells sea shells on the seashore";
-        //     string expected = "she sells OCEAN shells on the OCEANshore";  //she sells sea shells on the seashore
-        //     FindR newObject = new FindR();
-        //     string replacement = newObject.ConvertSentence(source, "sea", "OCEAN");
-        //     Assert.AreEqual(expected, replacement);
-        // }
+        [TestMethod]
+        public void OrderedQuantity_OrderedBreadQuantiry_Int()
+        {
+            int orderedQuantity =5;
+            Bread newBread = new Bread(orderedQuantity);
+            Assert.AreEqual(orderedQuantity, newBread.OrderedQuantity);
+        }
 
         // // [TestMethod]
         // // public void GetScore_AddsValuesForEachLetter_Int()
