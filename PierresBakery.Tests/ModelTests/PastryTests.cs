@@ -20,5 +20,14 @@ namespace PierresBakery.Tests
             Bread newPastry = new Pastry(2);
             Assert.AreEqual(typeof(Pastry), newPastry.GetType());
         }
+
+        [TestMethod]
+        public void FindTotalCost_CalculatedOrderCost_Int()
+        {
+            int orderedQty = 12;
+            Pastry newPastry = new Pastry(orderedQty);
+            int orderCost = newPastry.FindTotalCost();
+            Assert.AreEqual(20, orderCost);
+        }
     }
 }

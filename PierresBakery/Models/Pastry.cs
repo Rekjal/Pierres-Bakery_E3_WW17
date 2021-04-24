@@ -10,6 +10,13 @@ namespace PierresBakery.Models
         {
             OrderedQuantity = qty;
         }
+
+        public override int FindTotalCost()  //inherited "virtual" method
+        {
+            int multipleOfThree = (int)OrderedQuantity / 3;
+            OrderCost = (multipleOfThree * PastryCostForThree) + ((OrderedQuantity % 3) * PastryUnitCost);
+            return OrderCost;
+        }
     }
 
 }
