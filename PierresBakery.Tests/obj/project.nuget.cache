@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IdKu5wo3/Oy3ISowiDF4Z/hr8OK2tBGHFx50MNeXh63seYuFemnoCQgJGvORNy7F43pufYyY8E29cT9/+hRz/Q==",
+  "dgSpecHash": "elKO7v81Os34rrRcP+DWftPJFZbx9vTDelJrwUERN7ltlpPTVOJjJCme9V/j9U6lYslesbSHZl33uXpZhqQWvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\salimvay\\Epicodus\\FindReplace.Solution\\FindReplace.Tests\\FindReplace.Tests.csproj",
+  "projectFilePath": "C:\\Users\\salimvay\\Epicodus\\PierresBakery.Solution\\PierresBakery.Tests\\PierresBakery.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\salimvay\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\salimvay\\.nuget\\packages\\microsoft.net.test.sdk\\15.0.0\\microsoft.net.test.sdk.15.0.0.nupkg.sha512",

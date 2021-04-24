@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salimvay\\Epicodus\\FindReplace.Solution\\FindReplace\\FindReplace.csproj",
-      "projectName": "FindReplace",
-      "projectPath": "C:\\Users\\salimvay\\Epicodus\\FindReplace.Solution\\FindReplace\\FindReplace.csproj",
+      "projectUniqueName": "C:\\Users\\salimvay\\Epicodus\\PierresBakery.Solution\\PierresBakery\\PierresBakery.csproj",
+      "projectName": "PierresBakery",
+      "projectPath": "C:\\Users\\salimvay\\Epicodus\\PierresBakery.Solution\\PierresBakery\\PierresBakery.csproj",
       "packagesPath": "C:\\Users\\salimvay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salimvay\\Epicodus\\FindReplace.Solution\\FindReplace\\obj\\",
+      "outputPath": "C:\\Users\\salimvay\\Epicodus\\PierresBakery.Solution\\PierresBakery\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\salimvay\\AppData\\Roaming\\NuGet\\NuGet.Config"

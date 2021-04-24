@@ -4,10 +4,14 @@ namespace PierresBakery.Models
 {
     public class Bread
     {
-        // public string ConvertSentence(string source, string from, string to)
-        // {
-        //     string replacement = source.Replace(from, to);
-        //     return replacement;
-        // }
+        public int BreadUnitCost { get; set; } = 5;
+        public int OrderedQuantity { get; set; }
+        public int FinalQuantity { get; set; }
+        public int OrderCost { get; set; }
+
+        public Bread(int qty)
+        {
+            OrderedQuantity = qty;
+        }
     }
 }
