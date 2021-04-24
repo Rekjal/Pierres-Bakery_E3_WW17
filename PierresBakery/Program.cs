@@ -1,8 +1,4 @@
 using PierresBakery.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading;
 using System;
 
 namespace PierresBakery
