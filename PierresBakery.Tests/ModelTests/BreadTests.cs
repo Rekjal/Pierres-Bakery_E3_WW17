@@ -6,7 +6,7 @@ using System;
 namespace PierresBakery.Tests
 {
     [TestClass]
-    public class PierresBakeryTests : IDisposable
+    public class BreadTests : IDisposable
     {
 
         public void Dispose()
