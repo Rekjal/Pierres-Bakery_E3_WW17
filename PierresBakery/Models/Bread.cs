@@ -13,5 +13,11 @@ namespace PierresBakery.Models
         {
             OrderedQuantity = qty;
         }
+
+        public int FindTotalQuantity()
+        {
+            FinalQuantity = OrderedQuantity + ((OrderedQuantity - (OrderedQuantity % 2)) / 2);
+            return FinalQuantity;
+        }
     }
 }

@@ -24,17 +24,19 @@ namespace PierresBakery.Tests
         [TestMethod]
         public void OrderedQuantity_OrderedBreadQuantiry_Int()
         {
-            int orderedQuantity =5;
+            int orderedQuantity = 5;
             Bread newBread = new Bread(orderedQuantity);
             Assert.AreEqual(orderedQuantity, newBread.OrderedQuantity);
         }
 
-        // // [TestMethod]
-        // // public void GetScore_AddsValuesForEachLetter_Int()
-        // // {
-
-        // //     Assert.AreEqual(typeof(PrimeNum), newItem.GetType());
-        // // }
+        [TestMethod]
+        public void FindTotalQuantity_CalculatedBreadQuantity_Int()
+        {
+            int orderedQty = 14;
+            Bread newBread = new Bread(orderedQty);
+            int totalQty = newBread.FindTotalQuantity();
+            Assert.AreEqual(21, totalQty);
+        }
 
         // // // [TestMethod]
         // // // public void GenNumerals_GeneratedADictionaryWithKVPair_Dictionary()
