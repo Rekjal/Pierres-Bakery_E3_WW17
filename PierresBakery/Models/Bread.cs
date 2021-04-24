@@ -19,5 +19,12 @@ namespace PierresBakery.Models
             FinalQuantity = OrderedQuantity + ((OrderedQuantity - (OrderedQuantity % 2)) / 2);
             return FinalQuantity;
         }
+
+        public virtual int FindTotalCost() //adding "virtual" so that method can be ovveridden in child class
+        {
+            OrderCost = (OrderedQuantity * BreadUnitCost);
+            return OrderCost;
+        }
+
     }
 }
